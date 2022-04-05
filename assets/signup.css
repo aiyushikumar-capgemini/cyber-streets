@@ -1,0 +1,28 @@
+#header-buttons {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+form > input[type=text] {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+form > input[type=radio] {
+    margin-bottom: 3em;
+}
+
+#submit:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+
+#clear:hover{
+    background-color: rgba(255, 0, 0, 0.68);
+    color: whitesmoke;
+}

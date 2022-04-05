@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Cyber Streets - Sign Up!</title>
+        <link href="./assets/normalize.css" rel="stylesheet">
+        <link href="./assets/stylesheet.css" rel="stylesheet">
+        <link href="./assets/signup.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header-buttons">
+            <button class="button">Sign In</button>
+            <button class="button">Sign Up</button>
+        </div>
+        <h1 class="page-title">SIGN UP</h1>
+        <p class="warning">*Note: Payment information is needed before you can sign up for a ride</p>
+        <div class="neumorphic-box">
+            <form name="sign-up">
+                <input type="radio" id="rider" value="-1">
+                <label for="rider">Sign up as a Rider</label>
+                <input type="radio" id="driver" value="1">
+                <label for="driver">Sign up as a Driver</label>
+                <br>
+
+                <input type="text" id="f_name_sign-up" name="f_name" placeholder="First Name">
+                <input type="text" id="l_name_sign-up" name="l_name" placeholder="Last Name">
+                <br>
+
+                <input type="text" id="email_sign-up" name="email" placeholder="Email Address">
+                <br>
+
+                <input type="text" id="phone_number_sign-up" name="phone_number" placeholder="Phone Number">
+                <br>
+
+                <input type="text" id="password_sign-up" name="password" placeholder="Password">
+                <br>
+                <input type="text" id="password_sign-up" name="password" placeholder="Confirm Password">
+                <br>
+
+                <input type="submit" class="button" id="submit" value="Submit">
+                <input type="submit" class="button" id="clear" value="Clear">
+            </form>
+        </div>
+    </body>
+</html>
